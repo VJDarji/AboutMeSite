@@ -152,9 +152,7 @@ hr {
 }
 .btn-primary {
 	color: #fff;
-	background-color: #121d1f;
 	padding: 10px 20px;
-	border-color: #121d1f;
 	border-radius: 0;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active {
@@ -186,7 +184,7 @@ hr {
 /* About Section */
 #about {
 	padding: 100px 0;
-	background: #f6f6f6;
+	background: #7bc3d1;
 }
 #about .about-text {
 	margin-left: 10px;
@@ -201,6 +199,51 @@ hr {
 	margin-top: 20px;
 	margin-bottom: 30px;
 }
+.green{
+	color: #3cba54;
+	font-weight: bold;
+}
+.yellow{
+	color: #E87E04;
+	font-weight: bold;
+}
+.red{
+	color: #db3236 ;
+	font-weight: bold;
+}
+.blue{
+	color: #4885ed;
+	font-weight: bold;
+}
+/* Key Course */
+#key_courses {
+	background: #ffffff;
+	word-wrap:break-word;
+	width: auto;
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 18px;
+}
+#key_courses {
+	padding: 100px 0;
+	background: #ffffff;
+}
+#key_courses {
+	margin-left: 10px;
+}
+
+#key_courses p {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+@media (min-width: 992px){
+.col-md-1 {
+	width: auto;
+	margin: 10px;
+}
+}
+
 /* Skills Section */
 #skills {
 	padding: 100px 0;
@@ -379,6 +422,7 @@ ol.type li a:hover {
 	padding: 5px;
 	color: #E87E04;
 }
+
 /* Achivements Section */
 #achievements {
 	padding: 100px 0;
@@ -403,6 +447,9 @@ ol.type li a:hover {
 	color: #121d1f;
 	padding: 0;
 	margin: 0;
+}
+.modal-content{
+	margin-top: 90px;
 }
 /* Resume Section */
 #resume {

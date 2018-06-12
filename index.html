@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -->
 <title>Vaibhav Darji </title>
 <meta name="description" content="">
 <meta name="author" content="">
@@ -24,7 +25,7 @@
 <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
 <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
-<script type="text/javascript" src="js/modernizr.custom.js"></script>
+<!-- <script type="text/javascript" src="js/modernizr.custom.js"></script> -->
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -97,6 +98,36 @@
     </div>
   </div>
 </div>
+<!-- Key Course -->
+ <div id="key_courses">
+   <!-- <div class="container"> -->
+
+  <div class="col-md-1 green" > C++</div>
+  <div class="col-md-1 yellow"> Circuits and Systems</div>
+  <div class="col-md-1 red">Digital Design</div>
+  <div class="col-md-1 blue">Microprocessors</div>
+  <div class="col-md-1 green">Electronic Circuits</div>
+  <div class="col-md-1 yellow">Electrical Engineering Lab</div>
+  <div class="col-md-1 red">Programming Language Concepts</div>
+  <div class="col-md-1 blue">Signal Transmission</div>
+  <div class="col-md-1 green">Descrete Analysis for Computer Engineers</div>
+  <div class="col-md-1 yellow">Principles of Operating Systems</div>
+  <div class="col-md-1 red">Computer Organization and Architecture</div>
+  <div class="col-md-1 blue">Microprocessor Lab</div>
+    <div class="col-md-1 green" >Engineering Ethics and Technological Practice</div>
+    <div class="col-md-1 yellow"> Engineering Management</div>
+    <div class="col-md-1 red">Digital Systems Lab</div>
+    <div class="col-md-1 blue"></div>
+    <div class="col-md-1 green"></div>
+    <div class="col-md-1 yellow"></div>
+    <div class="col-md-1 red"></div>
+    <div class="col-md-1 blue"></div>
+    <div class="col-md-1 green"></div>
+    <div class="col-md-1 yellow"></div>
+    <div class="col-md-1 red"></div>
+    <div class="col-md-1 blue"></div>
+ </div>
+ 
 <!-- Skills Section -->
 <div id="skills" class="text-center">
   <div class="container">
@@ -261,14 +292,18 @@
 <!-- Achievements Section -->
 <div id="achievements" class="text-center">
   <div class="container">
+  
+
+
     <div class="section-title center">
       <h2>Some Stats</h2>
       <hr>
     </div>
     <div class="row">
-      <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="200ms">
-        <div class="achievement-box"> <span class="count">15</span>
-          <h4>Happy Clients</h4>
+      <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="200ms" >
+        <div class="achievement-box" type="button"  data-toggle="modal" data-target="#exampleModal">
+          <span class="count">3</span>
+          <h4>Certifications</h4>
         </div>
       </div>
       <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="400ms">
@@ -277,7 +312,7 @@
         </div>
       </div>
       <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="600ms">
-        <div class="achievement-box"> <span class="count">4</span>
+        <div class="achievement-box"> <span class="count">2</span>
           <h4>Awards Won</h4>
         </div>
       </div>
@@ -289,6 +324,30 @@
     </div>
   </div>
 </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <script>$('#myModal').on('shown.bs.modal', function () {
+        $('#myInput').trigger('focus')
+      })</script>
+    <!--/ Modal -->
 <!-- Resume Section -->
 <div id="resume" class="text-center">
   <div class="container">
@@ -529,20 +588,10 @@ function googleTranslateElementInit() {
 <script type="text/javascript" src="http://arrow.scrolltotop.com/arrow35.js"></script>
 <noscript>Not seeing a <a href="http://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>
 
-
-
-
-
-
-
-
-
-
-
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
 <script type="text/javascript" src="js/bootstrap.js"></script> 
 <script type="text/javascript" src="js/SmoothScroll.js"></script> 
-<script type="text/javascript" src="js/easypiechart.js"></script> 
+<script type="text/javascript" src="js/pie.js"></script> 
 <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
 <script type="text/javascript" src="js/jquery.isotope.js"></script> 
 <script type="text/javascript" src="js/jquery.counterup.js"></script> 
