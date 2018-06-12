@@ -63,8 +63,10 @@
           <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
           <li class="hidden"> <a href="#page-top"></a> </li>
           <li> <a class="page-scroll" href="#about">About</a> </li>
+          <li> <a class="page-scroll" href="#key_courses">Courses</a> </li>
           <li> <a class="page-scroll" href="#skills">Skills</a> </li>
           <li> <a class="page-scroll" href="#portfolio">Portfolio</a> </li>
+          <li> <a class=" page-scroll" href="#projects">Project</a></li>
           <li> <a class="page-scroll" href="#resume">Experience</a> </li>
           <li> <a class="page-scroll" href="#contact">Contact</a> </li>
 
@@ -101,7 +103,10 @@
 <!-- Key Course -->
  <div id="key_courses">
    <!-- <div class="container"> -->
-
+      <div class="section-title text-center center">
+          <h2>Key Courses</h2>
+          <hr>
+        </div>
   <div class="col-md-1 green" > C++</div>
   <div class="col-md-1 yellow"> Circuits and Systems</div>
   <div class="col-md-1 red">Digital Design</div>
@@ -301,8 +306,8 @@
     </div>
     <div class="row">
       <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="200ms" >
-        <div class="achievement-box" type="button"  data-toggle="modal" data-target="#exampleModal">
-          <span class="count">3</span>
+        <div class="achievement-box" type="button"  data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;">
+          <span class="count" >3</span>
           <h4>Certifications</h4>
         </div>
       </div>
@@ -312,10 +317,13 @@
         </div>
       </div>
       <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="600ms">
-        <div class="achievement-box"> <span class="count">2</span>
+          <div class="achievement-box"> <span class="count">2</span>
           <h4>Awards Won</h4>
         </div>
       </div>
+
+
+
       <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="800ms">
         <div class="achievement-box"> <span class="count">2</span>
           <h4>Years of Experience</h4>
@@ -325,18 +333,20 @@
   </div>
 </div>
 
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <!-- Certification Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Certifications</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="modal-body">
-            ...
+          <div class="modal-body" style="text-align: center">
+            <a href="https://www.udemy.com/certificate/UC-HA8P5LB0/" target="_blank">Windows 10 Essentials</a><br>
+            <a href="https://www.udemy.com/certificate/UC-V45A1M9H/" target="_blank">Windows Server 2012</a><br>
+             <a href="img/six_sigma.pdf" target="_blank"> Six Sigma White Belt</a>  <!--Add pdf link of certification link here-->
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
@@ -347,9 +357,59 @@
     <script>$('#myModal').on('shown.bs.modal', function () {
         $('#myInput').trigger('focus')
       })</script>
-    <!--/ Modal -->
+    <!--/ Certification Modal -->
+
+      
 <!-- Resume Section -->
 <div id="resume" class="text-center">
+<!-- Education Section-->
+    <div class="container">
+        <div class="section-title center">
+          <h2>Education</h2>
+          <hr>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              
+                  <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <h4>2015
+                    -
+                    Current<br>(expected <br>2019) </h4>
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>New Jersey Institute of Technology (NJIT)</h4>
+                    <h4 class="subheading">Bachelor Degree of Computer Engineering</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p></p>
+                  </div>
+                </div>
+              </li>
+    
+              <li>
+                <div class="timeline-image">
+                  <h4> 2013<br>
+                    - <br>
+                    2015 </h4>
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Burlington Township High School</h4>
+                    <h4 class="subheading">Diploma</h4>
+                  </div>
+                </div>
+              </li>
+    
+            </ul>
+          </div>
+        </div>
+      </div>
+
+<!-- Experience Section -->
+
   <div class="container">
     <div class="section-title center">
       <h2>Experience</h2>
@@ -359,7 +419,7 @@
       <div class="col-lg-12">
         <ul class="timeline">
 
-            <li>
+            <li class="timeline-inverted">
                 <div class="timeline-image">
                   <h4>Feb 2016 <br>
                     - <br>
@@ -376,7 +436,7 @@
                 </div>
             </li>
 
-            <li class="timeline-inverted">
+            <li>
                 <div class="timeline-image">
                   <h4>June 2017 <br>
                     - <br>
@@ -393,7 +453,7 @@
                 </div>
               </li>
 
-           <li>
+           <li class="timeline-inverted">
             <div class="timeline-image">
               <h4>Feb 2016 <br>
                 - <br>
@@ -410,7 +470,7 @@
             </div>
            </li>
 
-          <li class="timeline-inverted">
+          <li >
             <div class="timeline-image">
               <h4>November 2016 </h4>      
             </div>
@@ -425,7 +485,7 @@
             </div>
           </li>
 
-        <li>
+        <li class="timeline-inverted">
             <div class="timeline-image">
               <h4>September 2016 </h4>
             </div>
@@ -435,11 +495,11 @@
                 <h4 class="subheading">Mentor(Volunteer)</h4>
               </div>
               <div class="timeline-body">
-                <p>Helped preparing and serving food for First Year Student.</p>
+                <p>Assisted employer package drop offs and performed other administrative tasks as assigned..</p>
               </div>
             </div>
 
-         <li class="timeline-inverted">
+         <li >
             <div class="timeline-image">
               <h4> September 2016 </h4>       
             </div>
@@ -453,54 +513,7 @@
               </div>
             </div>
           </li>
-        </li>
- <!-- Education Section-->
- 
-         
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="section-title center">
-      <h2>Education</h2>
-      <hr>
-    </div>
-    <div class="row">
-      <div class="col-lg-12">
-        <ul class="timeline">
-          
-              <li class="timeline-inverted">
-            <div class="timeline-image">
-              <h4>2015
-                -
-                Current<br>(expected <br>2019) </h4>
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>New Jersey Institute of Technology (NJIT)</h4>
-                <h4 class="subheading">Bachelor Degree of Computer Engineering</h4>
-              </div>
-              <div class="timeline-body">
-                <p></p>
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <div class="timeline-image">
-              <h4> 2013<br>
-                - <br>
-                2015 </h4>
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>Burlington Township High School</h4>
-                <h4 class="subheading">Diploma</h4>
-              </div>
-            </div>
-          </li>
-
+        </li>         
         </ul>
       </div>
     </div>
@@ -514,19 +527,24 @@
       <hr>
     </div>
     <div class="col-md-8 col-md-offset-2">
+        <ul>
       <div class="col-md-4"> <i class="fa fa-map-marker fa-2x"></i>
-        <p>250 Central Ave<br>
+        <a href="https://maps.google.com/?ll=40.052694,-74.871226" target="_blank">
+        <p >250 Central Ave<br>
          Newark, NJ 07103</p>
+        </a>
       </div>
       <div class="col-md-4"> <i class="fa fa-envelope-o fa-2x"></i>
        
       <p><a href="mailto:vjd23@njit.edu">vjd23@njit.edu</a> </p>
       </div>
       <div class="col-md-4"> <i class="fa fa-phone fa-2x"></i>
-        <p> +1 609 251 7104</p>
+       <a href="tel:609-251-7104">  <p > +1 609 251 7104</p> </a>
       </div>
+      </ul>
       <div class="clearfix"></div>
     </div>
+
     <div class="col-md-8 col-md-offset-2">
       <h3>Leave me a message</h3>
       <form name="sentMessage" id="contactForm" novalidate>
@@ -556,7 +574,7 @@
           <li><a href="https://www.facebook.com/vaibhav.darji.07"  target="_blank"><i class="fa fa-facebook"></i></a></li>
           <li><a href="https://www.linkedin.com/in/vaibhav-darji"  target="_blank"><i class="fa fa-linkedin"></i></a></li>
           <li><a href="https://plus.google.com/+vaibhavdarji13"  target="_blank"><i class="fa fa-google"></i></a></li>
-          <li><a href="http://imgrab.com/instagram/vaibhu_1/1104757542/"  target="_blank"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="https://imgtoon.com/user/vaibhu_1/1104757542"  target="_blank"><i class="fa fa-instagram"></i></a></li>
           
         </ul>
       </div>
